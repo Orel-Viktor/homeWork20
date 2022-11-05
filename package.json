@@ -1,13 +1,27 @@
 {
   "name": "homework20",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "babel main.js -d build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orel-Viktor/homeWork20.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Orel-Viktor/homeWork20/issues"
+  },
+  "homepage": "https://github.com/Orel-Viktor/homeWork20#readme",
   "devDependencies": {
-    "vite": "^2.9.15"
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2"
   }
+  
 }
